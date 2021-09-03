@@ -7,7 +7,7 @@ const currentYear = new Date().getFullYear();
 
 const eldenRing = new Date(`January 21 ${currentYear + 1} 00:00:00`);
 
-function updateCountdown() {
+function updateCountdown() {        //Calcular dias, horas, minutos, segundos. Diferencia entre fecha actual y fecha objetivo.
   const currentTime = new Date();
   const diff = eldenRing - currentTime;
   const d = Math.floor(diff / 1000 / 60 / 60 / 24);

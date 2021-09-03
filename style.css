@@ -12,6 +12,19 @@ html, body {
   width:100%
 }
 
+#icon {
+  position: relative;
+  align-items: center;
+  color: white;
+  top: 23%;
+  left: 50%;
+  font-size: 30px;
+}
+
+#link {
+  color: white;
+}
+
 .main {
   margin:0;
   background-image: url(/src/eldenring-wallpaper.jpg);
@@ -92,7 +105,14 @@ html, body {
   .time span {
     font-size: 15px;
   }
+
+  #icon {
+    top: 17%;
+    left: 45%;
+    font-size: 30px;
+  }
 }
+
 
 @media screen and (min-width: 768px){
   
@@ -109,6 +129,12 @@ html, body {
   }
 
   .time span {
+    font-size: 30px;
+  }
+
+  #icon {
+    top: 23%;
+    left: 50%;
     font-size: 30px;
   }
 }
